@@ -1,0 +1,15 @@
+{
+  "name": "cloudstudio-extension",
+  "version": "1.0.0",
+  "description": "The cloudstudio.d.ts node module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding/cloudstudio-extension.git"
+  },
+  "author": "coding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coding/cloudstudio-extension/issues"
+  },
+  "homepage": "https://github.com/Coding/cloudstudio-extension#readme"
+}
