@@ -1,6 +1,6 @@
 /// <reference path="./typings/monaco.d.ts" />
 
-declare module "cloudstudio" {
+declare module "cloudstudio-extension" {
   /**
    * 编辑器相关 API
    */
