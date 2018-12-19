@@ -51,11 +51,11 @@ declare module "cloudstudio-extension" {
      * **Note:** 文件路径和内容为必要参数，可自定义编辑器唯一 id
      *
      * ```javascript
-     * const filePath = '/src/index.js';
-     * File.getFileContent(filePath)
+     * const path = '/src/index.js';
+     * File.getFileContent(path)
      *  .then((data) => {
      *      const { content } = data;
-     *      openNewEditor({ filePath, content, id: `editor_${filePath}` });
+     *      openNewEditor({ path, content, id: `editor_${path}` });
      *  });
      * ```
      */
@@ -437,6 +437,7 @@ declare module "cloudstudio-extension" {
        */
       type: string;
       position?: IModalPosition;
+      otherProps?: any;
     }
     /**
      * @param config 弹出模态框基本参数

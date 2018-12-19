@@ -1,6 +1,6 @@
 {
   "name": "cloudstudio-extension",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The cloudstudio.d.ts node module",
   "repository": {
     "type": "git",
